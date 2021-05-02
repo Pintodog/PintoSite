@@ -5,26 +5,55 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Pintodog.com - Home</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="./resources/css/main.css" rel="stylesheet" type="text/css" />
+	<link href="./resources/css/home.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<script src="script.js">
+	<script src="resources/javascript/">
 	</script>
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<div class="topnav" id="myTopnav">
-  	  <a href="http://pintodog.com/" class="active">Home</a>
-	  <a href="http://pintodog.com/pintocraft">PintoCraft</a>
-  	  <a href="http://pintodog.com/blog">Blog</a>
+  	  <a href="./index.html" class="active">Home</a>
+	  <a href="pintocraft/index.html">PintoCraft</a>
+  	  <a href="blog/index.html">Blog</a>
+	  <a href="projects/index.html">Projects</a>
   	  <a href="javascript:void(0);" class="icon" onclick="navBar()">
     	<i class="fa fa-bars"></i>
  	  </a>
 	</div>
-	<h1>Pintodog.com</h1>
-	<p>Welcome to my website, pintodog.com. Here you will find information about my Minecraft server, PintoCraft, as well as my blog and various projects.</p>
-	<h2></h2>
+	<hr>
+	<div class=header>
+		<h2>Pintodog.com</h2>
+	</div>
+	<div class=linkTree>
+		<a href="./index.html">Home</a>
+	</div>
+	<div class="row">
+		<div class="leftcolumn">
+		  <div class ="card">
+			<h4>Welcome to my website, pintodog.com. Here you will find information about my Minecraft server, <a href="./pintocraft/index.html">PintoCraft</a>, as well as my <a href="./blog/index.html">blog</a> and various other <a href="projects">projects</a>.</h4><br><hr style="color: white;"><br>
+			<img src="resources/images/Pintocraft House.png" style="height: 50%; width: 50%; display: block; margin-left: auto; margin-right: auto;">
+		  </div>
+		</div>
+		<div class="rightcolumn">
+		  <div class="card">
+			<h2>About Me</h2>
+			<p>Hi! My name is Pintodog, although you might know me as Daniel. I run PintoCraft, which you can find more info on <a href="../pintocraft/index.html">here</a>, as well as doing various coding projects which you can find <a href="../projects/index.html">here.</p>
+		  </div>
+		  <div class="card">
+			<h3>Recent Blog Posts</h3>
+			<a href="./blog/index.html#001">Bringing pintodog.com into the 21st century [1/5/2021]</a><br>
+			<a href="./blog/index.html">See all</a>
+		  </div>
+		</div>
+	  </div>
+	<div class="footer">
+		<h2>Pintodog.com</h2>
+		<small>Copyright &copy; 2021 Pintodog (Daniel Chamberlin).&nbsp; All rights reserved.</small>
+	</div>
 </body>
 
 </html>
